@@ -6,6 +6,7 @@ public class A {
         c.printInfo();
         int v = c.getClassInstance().compute(B.V1,B.V2);
         int v2 = c.getClassInstance().compute(a,b);
+        c.compute(a,b);
         System.out.println(v);
     }
 }
