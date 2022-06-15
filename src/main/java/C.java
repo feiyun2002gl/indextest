@@ -8,4 +8,8 @@ public class C {
     public void printInfo(){
 
     }
+
+    public int compute(int a, int b){
+        return a*b;
+    }
 }
