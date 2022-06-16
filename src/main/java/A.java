@@ -1,5 +1,6 @@
 public class A {
     public void operate(){
+        int compute;
         int a = 88;
         int b = 10;
         C c = new C();
